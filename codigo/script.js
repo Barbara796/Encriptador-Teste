@@ -8,6 +8,7 @@ validarInput()
 
 function btnEncriptar() {
         if(!validarInput()){
+            
             const textoEncriptado = encriptar(inputTexto.value)
             mensagem.value = textoEncriptado
             mensagem.style.backgroundImage="none"
